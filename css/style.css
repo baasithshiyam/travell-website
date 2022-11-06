@@ -1,0 +1,260 @@
+
+h1{
+    font-size: 60px;
+    margin: 10px 0px;
+}
+
+.contact-heading{
+    color: #2D4AC4;
+    text-decoration: underline;
+}
+
+.contact-page{
+    display: flex;
+    margin-top: 150px;
+    padding: 0 76px;
+}
+
+.contact-left{
+    width: 60%;
+}
+
+.contact-iframe{
+    width: 93%; 
+    height:234px; 
+    border:0; 
+    margin: 15px 0;
+}
+
+.contact-card-bottom{
+    /* display: flex; */
+    /* width: 93%;
+    gap: 15px; */
+    /* justify-content: space-between; */
+}
+
+.contact-card{
+    background-color: #F3F3F3;
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 6px;
+}
+
+.contact-card div{
+    margin-bottom: 10px;
+}
+
+/* Form */
+
+.contact-right{
+    padding: 0 20px;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 40%;
+}
+
+.contact-form{
+    margin: 30px auto;
+}
+.flex-container{
+    display: flex;
+}
+
+.block-container{
+    width: 50%;
+}
+
+.form-input{
+    height: 50px;
+    width: 90%;
+    margin: 8px 0;
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: 6px;
+    padding: 0 6px;
+    font-size: 15px;
+}
+.form-message{
+    height: 100px;
+    width: 100%;
+    margin: 6px;
+}
+.form-people{
+    height: 116px;
+}
+::placeholder {
+    padding: 20px;
+  }
+
+  .primary-btn{
+    margin: 8px;
+
+ }
+
+
+ /* responsiveness */
+@media screen and (max-width: 820px) {
+    .contact-page{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    .contact-right{
+        width: 94%;
+    }
+    .contact-card-bottom{
+        width: 100%;
+        flex-direction: row;
+    }
+    .contact-card{
+        margin-bottom: 20px;
+    }
+    .contact-iframe{
+        width: 100%;
+    }
+
+    .d-flex{
+        flex-direction: column;
+      }
+      .category-card,.review-card,.why-card,.hotel-card,.blog-card,.capsule{
+       margin: 10px auto;
+       width: 80vw;
+      }
+    
+      .headline{
+        order: 2;
+      }
+    
+      .tab-hero-img{
+        flex-direction: row;
+        order: 1;
+      }
+    
+      .display-only{
+        flex-direction: row;
+      }
+    
+      .capsule{
+        text-align: center;
+        width: 60vw;
+      }
+      .hotel-card img, .blog-card img,.category-card img{
+        width: 650px;
+       }
+       .form-block-container input{
+         width: 80vw;
+         margin: 10px 0;
+       }
+      
+    
+}
+
+/* responsiveness */
+@media screen and (max-width: 377px) {
+    h1{
+        font-size: 40px;
+    }
+    .contact-page{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    .contact-right{
+        width: 95%;
+        padding: 0 5px;
+
+    }
+    .contact-card-bottom{
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contact-card{
+        margin:  0 auto;
+        margin-bottom: 20px;
+    }
+    .flex-container{
+        display: block;
+        margin: 0 auto;
+    }
+    .block-container{
+        width: 100%;
+    }
+    .form-input {
+        width: 90% !important;
+    }
+    .form-message{
+        height: 100px;
+        /* width: 100%;
+        margin: 6px 12px !important; */
+    }
+    .contact-iframe{
+        width: 100%;
+    }
+
+    section{
+        margin: 80px 10px;
+      }
+    
+      h1.display-1{
+        font-size: 44px;
+        margin-top: 0;
+      }
+      p{
+        font-size: 14px;
+      }
+      .hero-image {
+        display: none;
+      }
+    
+      h1{
+        font-size: 28px;
+      }
+      h2{
+        font-size: 20px;
+      }
+      h3{
+        font-size: 18px;
+      }
+    
+      /* section 2 */
+      section.trust-bar{
+        padding: 0;
+        width: 100vw;
+      }
+     .category-card,.review-card,.why-card,.hotel-card,.blog-card,.capsule{
+      margin: 10px auto;
+      width: 80vw;
+     }
+    
+     /* section 4 */
+     .hotel-card img, .blog-card img,.category-card img{
+      width: 320px;
+     }
+    
+    
+     .capsule{
+      text-align: center;
+      width: 60vw;
+     }
+    
+    
+     .primary-btn{
+      padding: 10px 25px; 
+      }
+    
+      .display-only{
+        flex-direction: row;
+      }
+    
+      .form-block-container input{
+        width: 80vw;
+        margin: 10px 0;
+      }
+      
+    
+}
